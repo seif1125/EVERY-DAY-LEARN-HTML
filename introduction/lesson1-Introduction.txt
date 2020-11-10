@@ -1,0 +1,64 @@
+A) What is HTML?
+    -HTML STANDS FOR (HYPERTEXT MARKUP LANGUAGE)
+    -USED TO BUILD THE STRUCTURE OF WEB PAGES 
+    -CONSIST OF ELEMENT LIKE <element> WHICH HOLDS THE WEB CONTENT
+
+B) WHAT IS ELEMENT? 
+
+    -A PREDIFINED WORDS HAVE A STARTING TAG,ENDING TAG AND A CONTENT IN BETWEEN DEFINING A WEB STRUCTURE 
+        EXAMPLE
+                <elementname>      CONTENT      </elementname>
+                        
+                         <h1> THIS IS HEADING 1 </h1> (BROWSER HERE WILL SHOW HEADING OF TEXT "THIS IS HEADING 1" )
+                                           //see line 17 in the html index.html
+
+     - SOME ELEMENTS DO NOT HAVE ENDING TAGS OR CONTENTS THOSE ELEMENTS ARE CALLED EMPTY ELEMENTS SUCH AS 
+      <br> which will discuss later //see line 18 html index.html
+   
+    - ELEMENTS CAN CONTAINED OR CONTAIN OTHER ELEMENTS AND THIS IS CALLED NESTED ELEMENT    
+       // see line 9 in the html index.html         
+
+   
+
+
+
+
+
+
+C) DESCRIPTION OF THE PLAIN WEBPAGE ?
+
+   THE BASIC HTML PAGE WHICH CONTAINS EMPTY CONTENTS IS CONSISTING OF ELEMENTS AS FOLLOWS
+
+    -<!DOCTYPE html>
+                    . THIS ELEMENT IS ALWAYS WRITTEN AS FIRST ELEMENT IN HTML PAGE
+                    . IT IS USED TO INDICATE THAT THIS DOCUMENT IS OF TYPE HTML5
+                    . HAVE NO CLOSING TAG(EMPTY ELEMENT)
+
+    -<head>  
+                    . THIS ELEMENT CONTAINS META DATA OF WEB PAGE AS <title> element 
+                    . HAVE A CLOSING TAG 
+
+    -<title>
+                    . THIS ELEMENT HOLDS THE TITLE CONTENT WHICH SHOW ON THE BROWSER PAGE TAB
+                    . HAS A CLOSING TAG CONTAINING ONLY TITLE TEXT (element content)   
+
+    -<html>        
+                    . IS THE ROOT ELEMENT OF WEB PAGE
+                    . CONTAINS ALL WEBPAGE ELEMENTS AND ITS CONTENTS INSIDE
+                    . HAS CLOSING TAG AT THE END OF THE HTML FILE
+
+    -<body>
+                    . IS THE ELEMENT HOLDING ALL THE CONTENT APPEAR IN THE WEB PAGE
+                    . IT HOLDS ALL OTHER ELEMENTS AS ITS PARENT BUT IS CONTAINED INSIDE 
+                      <html>ELEMENT TAGS    
+
+
+
+
+ ---------------------------------TODAY'S TASK----------------------------------------
+ *START USING YOUR EDITOR AND CREATE AN HTML FILE OF NAME index.html THEN WRITE A BASIC HTML CODE 
+  WITH YOUR NAME AS TITLE  AND OPEN THIS FILE ON YOUR BROWSER THEN CHECK THE ANSWER IN THE CODE PAGE...
+
+  BONUS TASK: Try to set the charset to support all languages
+
+  TIP: ALWAYS GOOGLE AND SEARCH ANYTHING YOU NEED TO KNOW 

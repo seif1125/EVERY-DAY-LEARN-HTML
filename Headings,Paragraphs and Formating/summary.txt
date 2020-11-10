@@ -1,0 +1,100 @@
+Headings:
+
+headings are html elements used as the main headlines in the document structure
+headings are important in your page as search engines always deals with headings 
+users always get benefit of headings for document consistency
+use headings for only titles and headlines not to make text larger
+we use from <h1>to<h6> to markup headings from most important to 
+least important respectively
+you can specify and customize the size of heading using inline css styling
+example <h1> i am heading 1</h1>
+try this and change 1 to any number up to six and see the diffrence
+
+
+Paragraphs:
+html have a <p> element which start a new line of text with special margins 
+the paragraph removes any extra spaces and newlines unless we use the forollowing
+        
+        a) add new line
+                -use the markup <br> to searchtart newline 
+                example : 
+                            <p>we will start <br> newline   </p>
+
+
+        b)add horizontal line
+                - use <hr> to draw horizontal line
+                - <p>line one</p>
+                 <hr> 
+                 <p> line 2 </p>
+
+for special type of texts as poems we can use <pre> to preserve
+the spaces and newlines
+
+example:
+        <pre>
+            we wish you a merry christmas 
+            and a happy new year
+        </pre>
+
+
+
+Formatting:
+
+Html have several tags for giving texts special styling and meanings as italics 
+where
+
+<b>:used to bold the text between tags 
+<strong>: same as bold and gives text an importance
+<i>:used to make text betwwen tags italics
+<em>:same as italic but used for readers to mention this text as emphasized
+<mark>:make text highlighted
+<ins> make text underlined
+<del> make text striked out
+<sup> make text superscripted
+<sub> make text subscipted
+
+example:
+            <p>this text is <b> bolded </b>   </p>
+
+try this and change <b> with diffrent formatting tags
+
+
+
+
+
+
+
+
+Asses Yourself
+
+
+-write html page contains 6 headings from most importance to least
+
+- each heading have a paragraph 
+where each paragraph must be formatted as forollowing
+
+        paragraph 1: i am a paragraph
+        paragraph 2: i am a paragraph which can make a newline  (make newline in a newline)
+        paragraph 3: i am a paragraph which must be emphasized  (make emphasized emphasized)
+        paragraph 4: i am a paragraph which can be underline ,striked out (make underline underlined and stike out strike out)
+        paragraph 5: i am a smaller paragraph (make smaller smalller)
+        paragraph 6: i am a paragraph which have subscript and superscript (use sub and sup)
+
+
+
+- use a line separator to separate each heading and paragraph
+
+- write a poems with its structure 
+- write then a text "for more poems click here" (make here strong)
+
+
+BONUS!!!!!!   
+        use inline styling to style this page
+
+
+REFRENCE 
+see the index file in this directory         
+
+
+
+
